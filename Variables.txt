@@ -1,0 +1,50 @@
+Set this in settings tab, c/C++ preprocessor
+
+
+c:\Program Files\OpenCV\cv\include 
+c:\Program Files\OpenCV\otherlibs\highgui
+
+Set this in Settings tab, Link->General(category) ->object/library module
+cv.lib highgui.lib cxcore.lib cvaux.lib cvcam.lib
+
+
+Set this also in Link->input ->object library modules
+cv.lib highgui.lib cxcore.lib cvaux.lib cvcam.lib
+
+Set Link->input->Additional library path
+c:\Program Files\OpenCV\lib
+
+
+TWEAK TIP:
+
+ "cannnot find "cv.h" / header files missing.....
+
+try to do this:
+
+
+TOOLS -> OPTIONS -> DIRECTORIES tab
+
+1. goto "show directories for" tab select "Include files"
+
+add the following:
+
+C:\PROGRAM FILES\OPENCV\CV\INCLUDE
+C:\PROGRAM FILES\OPENCV\OTHERLIBS\HIGHGUI
+C:\PROGRAM FILES\OPENCV\CXCORE\INCLUDE
+C:\PROGRAM FILES\OPENCV\CVAUX\INCLUDE
+C:\PROGRAM FILES\OPENCV\OTHERLIBS\CVCAM\INCLUDE 
+
+2. goto "show directories for" tab select "Library files"
+
+C:\PROGRAM FILES\OPENCV\LIB
+
+
+3.  goto "show directories for" tab select "Source files"
+
+add the following:
+
+C:\PROGRAM FILES\OPENCV\CV\SRC
+C:\PROGRAM FILES\OPENCV\CXCORE\SRC
+C:\PROGRAM FILES\OPENCV\CVAUX\SRC
+C:\PROGRAM FILES\OPENCV\OTHERLIBS\HIGHGUI
+C:\PROGRAM FILES\OPENCV\OTHERLIBS\CVCAM\SRC\WINDOWS
