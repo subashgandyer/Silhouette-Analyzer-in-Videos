@@ -22,4 +22,6 @@ Output: Who entered and how many times and when a person entered the room
 
 * OpenCV
 
-![here](https://github.com/subashgandyer/Silhouette-Analyzer-in-Videos/blob/master/Human%20Activity%20Detection%20in%20videos%20new.ppt)
+## Thesis Slide Deck
+
+Find the Slides [here](https://github.com/subashgandyer/Silhouette-Analyzer-in-Videos/blob/master/Human%20Activity%20Detection%20in%20videos%20new.ppt)
